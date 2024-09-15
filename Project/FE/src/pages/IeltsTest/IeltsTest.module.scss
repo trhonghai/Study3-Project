@@ -1,0 +1,144 @@
+.ielts-test {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+
+    .test-header {
+        margin-bottom: 20px;
+
+        .info-button {
+            background-color: #f0f0f0;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .note {
+            color: red;
+            font-size: 14px;
+        }
+    }
+
+    .test-tabs {
+        display: flex;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 20px;
+
+        button {
+            background: none;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            color: #6c757d;
+            font-size: 16px;
+            position: relative;
+
+            &.active {
+                color: #0d47a1;
+                font-weight: bold;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    bottom: -1px;
+                    height: 2px;
+                    background-color: #0d47a1;
+                }
+            }
+
+            &:hover {
+                color: #0d47a1;
+            }
+        }
+    }
+
+    .pro-tips {
+        background-color: #e0f7fa;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .test-options {
+        margin-bottom: 20px;
+        font-size: 14px;
+
+        .test-recording {
+            align-items: center;
+
+            .checkbox {
+                margin-right: 10px;
+            }
+
+            .tags {
+                display: flex;
+                flex-wrap: wrap;
+
+                .tag {
+                    background-color: #e0e0e0;
+                    padding: 5px 5px;
+                    border-radius: 10px;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .timer-settings {
+            margin: 20px 0;
+
+            p {
+                margin-bottom: 10px;
+                font-size: 14px;
+                color: #333;
+            }
+
+            select {
+                width: 100%;
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 14px;
+                color: #555;
+                appearance: none;
+                background-color: #fff;
+                background-image: url('data:image/svg+xml;utf8,<svg fill="%23555" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+                background-repeat: no-repeat;
+                background-position: right 10px center;
+                background-size: 12px;
+            }
+
+            button {
+                margin-top: 20px;
+                padding: 10px 20px;
+                background-color: #0d47a1;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                font-size: 14px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #0b3c91;
+                }
+            }
+        }
+
+        .practice-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    }
+}

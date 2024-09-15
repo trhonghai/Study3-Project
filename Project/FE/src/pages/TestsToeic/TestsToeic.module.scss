@@ -1,0 +1,127 @@
+.exam-library {
+    width: 80%;
+
+    .title {
+        font-size: 24px;
+        text-align: left;
+        font-weight: 700;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    .filters {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+
+        button {
+            background: #eef;
+            border: none;
+            border-radius: 4px;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 14px;
+
+            &:hover {
+                background: #dde;
+            }
+
+            &.active {
+                background: var(--primary-color);
+                color: white;
+            }
+        }
+    }
+
+    .search-bar {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 16px;
+
+        input {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 8px 16px;
+            cursor: pointer;
+
+            &:hover {
+                background: #0056b3;
+            }
+        }
+    }
+
+    .exam-card-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 16px;
+        gap: 16px;
+
+        .exam-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 16px;
+            width: 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            h3 {
+                font-size: 16px;
+                margin-bottom: 8px;
+            }
+
+            p {
+                margin: 4px 0;
+                font-size: 14px;
+            }
+
+            .tags {
+                margin: 8px 0;
+
+                .tag {
+                    background: #eef;
+                    border-radius: 4px;
+                    padding: 4px 8px;
+                    font-size: 12px;
+                    margin-right: 4px;
+                    color: var(--primary-color);
+                }
+            }
+
+            button {
+                background: #fff;
+                border: 1px solid #007bff;
+                border-radius: 4px;
+                color: #007bff;
+                padding: 8px;
+                cursor: pointer;
+                transition: background 0.3s;
+
+                &:hover {
+                    background: #007bff;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .pagination-test {
+        display: flex;
+        justify-content: center;
+        gap: 4px;
+        margin-top: 20px;
+
+
+    }
+}

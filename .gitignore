@@ -1,0 +1,12 @@
+.DS_Store
+Project/BE/NET/bin/
+Project/BE/NET/obj/
+
+./Project/BE/NET/bin/
+./Project/BE/NET/obj/
+
+.fake
+
+Project/BE/NET/[Oo]bj/
+
+Project/BE/NET/uploads/

@@ -1,0 +1,34 @@
+.mgt-test-container {
+    padding-top: 15px;
+}
+
+.list-type-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.type-link {
+    text-decoration: none;
+    color: var(--icon-color);
+    font-weight: 500;
+    font-size: 16px;
+    width: auto;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    border-radius: 7px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.type-link:hover,
+.type-link.active {
+    color: var(--icon-color);
+    background-color: rgb(214, 238, 218);
+}

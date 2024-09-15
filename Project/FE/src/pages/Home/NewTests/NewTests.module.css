@@ -1,0 +1,141 @@
+@charset "UTF-8";
+.container {
+  width: 70%;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* Ensure 4 columns per row */
+  gap: 10px;
+}
+
+.test {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.test-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.test-details {
+  display: flex;
+  justify-content: space-between;
+  /* Distributes space between items */
+  align-items: center;
+  /* Aligns items vertically */
+  margin-top: 10px;
+  /* Adds some space above */
+}
+
+.test-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.test-time,
+.test-participants,
+.test-comments,
+.test-sections {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.test-time::before,
+.test-participants::before,
+.test-comments::before {
+  content: "";
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.test-time::before {
+  content: "⏰";
+}
+
+.test-participants::before {
+  content: "👥";
+}
+
+.test-comments::before {
+  content: "💬";
+}
+
+.test-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tag {
+  background-color: #e0f7fa;
+  color: #00796b;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+button {
+  background-color: #fff;
+  border: 1px solid #00796b;
+  color: #00796b;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #00796b;
+  color: #fff;
+}
+
+/* Responsive Layout */
+@media (max-width: 1000px) {
+  .card {
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns for medium screens */
+  }
+}
+@media (max-width: 900px) {
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columns for small screens */
+  }
+}
+@media (max-width: 600px) {
+  .card {
+    grid-template-columns: 1fr;
+    /* 1 column for very small screens */
+  }
+}/*# sourceMappingURL=NewTests.module.css.map */

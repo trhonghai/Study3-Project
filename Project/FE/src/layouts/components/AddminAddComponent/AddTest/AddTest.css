@@ -1,0 +1,77 @@
+.form-label {
+    font-weight: 500;
+}
+
+.input-container {
+    margin-bottom: 25px;
+}
+
+.reset-time-btn {
+    height: 35px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0.12) 0px 1px 1px 0px,
+        rgba(64, 68, 82, 0.16) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(64, 68, 82, 0.08) 0px 2px 5px 0px;
+    border: none;
+    background-color: white;
+    padding: 2px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.reset-time-btn:hover {
+    background-color: #f8f9fa;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0.12) 0px 1px 1px 0px,
+        rgba(64, 68, 82, 0.16) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(64, 68, 82, 0.08) 0px 2px 5px 0px;
+}
+
+.reset-time-btn:active {
+    background-color: #f1f1f1;
+
+}
+
+.submit-form-btn {
+    border-radius: 7px;
+    font-weight: 500;
+    padding: 7px 20px;
+    transition: all 0.3s ease;
+}
+
+.add-type {
+    width: 150px;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.icon {
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+
+
+.submit-form-btn .spinner-border {
+    color: white !important;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.addedTestTitle {
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: var(--primary-color);
+}

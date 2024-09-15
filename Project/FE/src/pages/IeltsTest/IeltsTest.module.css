@@ -1,0 +1,126 @@
+.ielts-test {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.ielts-test .test-header {
+  margin-bottom: 20px;
+}
+.ielts-test .test-header .info-button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.ielts-test .test-header .note {
+  color: red;
+  font-size: 14px;
+}
+.ielts-test .test-tabs {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+.ielts-test .test-tabs button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #6c757d;
+  font-size: 16px;
+  position: relative;
+}
+.ielts-test .test-tabs button.active {
+  color: #0d47a1;
+  font-weight: bold;
+}
+.ielts-test .test-tabs button.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 2px;
+  background-color: #0d47a1;
+}
+.ielts-test .test-tabs button:hover {
+  color: #0d47a1;
+}
+.ielts-test .pro-tips {
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.ielts-test .test-options {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.ielts-test .test-options .test-recording {
+  align-items: center;
+}
+.ielts-test .test-options .test-recording .checkbox {
+  margin-right: 10px;
+}
+.ielts-test .test-options .test-recording .tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ielts-test .test-options .test-recording .tags .tag {
+  background-color: #e0e0e0;
+  padding: 5px 5px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.ielts-test .test-options .timer-settings {
+  margin: 20px 0;
+}
+.ielts-test .test-options .timer-settings p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+.ielts-test .test-options .timer-settings select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #555;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23555" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+}
+.ielts-test .test-options .timer-settings button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0d47a1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.ielts-test .test-options .timer-settings button:hover {
+  background-color: #0b3c91;
+}
+.ielts-test .test-options .practice-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}/*# sourceMappingURL=IeltsTest.module.css.map */

@@ -1,0 +1,107 @@
+.feature-courses-container {
+  padding: 20px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+.feature-courses-container .title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+.feature-courses-container .each-slide {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.feature-courses-container .each-slide .course-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s;
+}
+.feature-courses-container .each-slide .course-card:hover {
+  transform: translateY(-5px);
+}
+.feature-courses-container .each-slide .course-card .course-image {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.feature-courses-container .each-slide .course-card .course-info {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.feature-courses-container .each-slide .course-card .course-info .course-title {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #111;
+}
+.feature-courses-container .each-slide .course-card .course-info .course-description {
+  font-size: 0.9rem;
+  margin: 0;
+  color: #555;
+  flex-grow: 1;
+}
+.feature-courses-container .each-slide .course-card .course-info .course-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+.feature-courses-container .each-slide .course-card .course-info .course-rating .star-rating {
+  color: #f5c518;
+}
+.feature-courses-container .each-slide .course-card .course-info .course-rating span {
+  font-size: 0.9rem;
+  color: #777;
+}
+.feature-courses-container .each-slide .course-card .course-info .course-extra {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+.feature-courses-container .each-slide .course-card .course-info .course-extra .tag {
+  background-color: #e1e9ff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: #2a73e8;
+}
+.feature-courses-container .each-slide .course-card .course-info .course-extra .students {
+  font-size: 0.9rem;
+  color: #555;
+}
+.feature-courses-container .each-slide .course-card .course-info .course-price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.feature-courses-container .each-slide .course-card .course-info .course-price .current-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #27ae60;
+}
+.feature-courses-container .each-slide .course-card .course-info .course-price .original-price {
+  font-size: 1rem;
+  text-decoration: line-through;
+  color: #999;
+}
+.feature-courses-container .each-slide .course-card .course-info .course-price .discount {
+  background-color: #ffe9e9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #e74c3c;
+  font-size: 1rem;
+}/*# sourceMappingURL=FeatureCourses.module.css.map */

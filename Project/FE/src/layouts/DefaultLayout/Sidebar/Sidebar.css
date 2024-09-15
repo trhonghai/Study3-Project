@@ -1,0 +1,41 @@
+.admin-sidebar-container {
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    border: 1px solid rgb(235, 238, 241);
+    padding: 15px 10px;
+    font-weight: 500;
+}
+
+.app-name {
+    color: var(--text-color);
+}
+
+.admin-sb-menu-item {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 15px; */
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 6px 10px;
+}
+
+.admin-sb-menu-item:hover {
+    background-color: rgb(235, 238, 241);
+    border-radius: 5px;
+}
+
+.admin-sb-menu-item>a {
+    color: var(--icon-color) !important;
+    font-size: 15px;
+}
+
+.admin-sb-menu-item .icon {
+    font-size: 25px;
+    color: var(--icon-color);
+}
+
+.admin-sb-menu-link {
+    width: 100%;
+    height: 100%;
+}

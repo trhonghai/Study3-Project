@@ -1,0 +1,40 @@
+.admin-header-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.admin-hd-icon {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white;
+    transition: all 0.2s ease;
+    color: var(--black);
+}
+
+.admin-hd-icon:hover {
+    background-color: rgb(235, 238, 241);
+    color: var(--primary-color);
+}
+
+.admin-hd-btn-add {
+    padding: 0;
+    border: none;
+}
+
+.admin-add-container {
+    position: relative;
+
+}

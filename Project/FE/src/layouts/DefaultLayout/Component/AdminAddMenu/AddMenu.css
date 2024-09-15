@@ -1,0 +1,33 @@
+.add-menu-items-container {
+    position: absolute;
+    right: 0;
+    z-index: 99;
+    background-color: white;
+
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    padding: 7px;
+
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    max-width: auto;
+
+}
+
+.add-menu-item {
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--icon-color);
+    transition: all 0.2s ease;
+    font-weight: 500;
+    padding: 2px 5px;
+
+}
+
+.add-menu-item:hover {
+    color: var(--primary-color);
+    background-color: rgb(235, 238, 241);
+    border-radius: 3px;
+}
